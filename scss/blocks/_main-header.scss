@@ -1,0 +1,38 @@
+.header {
+	min-height: 60px;
+
+	color: #f3f3f3;
+
+	background-color: #3e90b2;
+}
+
+.main-header {
+	margin-bottom: 80px;
+}
+
+.header-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 10px 0;
+}
+
+.header-logo {
+	width: 108px;
+	height: 40px;
+}
+
+.header-login {
+	display: flex;
+	align-items: center;
+}
+
+.login-icon {
+	margin-right: 5px;
+}
+
+.login-text {
+	font-size: 0.75rem;
+	line-height: 1.333333333333333;
+}

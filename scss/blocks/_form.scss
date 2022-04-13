@@ -1,0 +1,117 @@
+.form {
+	margin: 0 auto;
+}
+
+.input-group {
+	margin-bottom: 40px;
+
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 24px;
+}
+
+.input-group:nth-child(6) {
+	margin-bottom: 60px;
+}
+
+.input-required {
+	color: $requiredFieldTextColor;
+}
+
+.input-error {
+	min-height: 15px;
+	font-size: 11px;
+	line-height: 15px;
+	color: $inputError;
+}
+
+.input-title {
+	margin-bottom: 5px;
+
+	display: block;
+}
+
+.form-input {
+	margin-bottom: 5px;
+	padding: 10px 15px;
+
+	width: 100%;
+
+	font-size: 14px;
+	line-height: 19px;
+
+	border: 1px solid $inputBorderColor;
+	border-radius: $borderRadius;
+
+	background-color: $inputBgColor;
+
+	transition: all ease 0.3s;
+}
+
+.form-input:hover {
+	background-color: $inputBgColorHover;
+}
+
+.form-input:focus {
+	background-color: $inputBgColorFocus;
+}
+
+.form-input::placeholder {
+	font-size: 11px;
+	line-height: 15px;
+	color: $placeholderTextColor;
+}
+
+.form-input.valid {
+	background-color: $inputBgColorValid;
+	border: 1px solid $inputBorderColorValid;
+}
+
+.form-input.invalid {
+	background-color: $inputBgColorInvalid;
+	border: 1px solid $inputBorderColorInvalid;
+}
+
+.form-button {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+
+	border: 1px solid $buttonBorderColor;
+	border-radius: $borderRadius;
+
+	transition: all ease 0.3s;
+}
+
+.form-button--blue {
+	color: $buttonBlueTextColor;
+
+	background-color: $buttonBlueBgColor;
+}
+
+.form-button--blue:hover,
+.form-button--blue:focus {
+	background-color: $buttonBlueBgColorHover;
+	border: 1px solid $buttonBlueBorderColorHover;
+}
+
+.form-button--blue:active {
+	background-color: $buttonBlueBgColorActive;
+	border: 1px solid $buttonBlueBorderColorActive;
+}
+
+.form-button--yellow {
+	color: $buttonYellowTextColor;
+	background-color: $buttonYellowBgColor;
+}
+
+.form-button--yellow:hover,
+.form-button--yellow:focus {
+	background-color: $buttonYellowBgColorHover;
+}
+
+.form-button--yellow:active {
+	background-color: $buttonYellowBgColorActive;
+}

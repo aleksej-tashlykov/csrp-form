@@ -1,0 +1,104 @@
+.main-content {
+	flex: 1 1 auto;
+
+	margin-bottom: 150px;
+}
+
+.main-title {
+	margin-bottom: 30px;
+}
+
+.main-content .form-application {
+	margin-bottom: 25px;
+}
+
+.select-group {
+	position: relative;
+
+	margin-bottom: 5px;
+
+	background-color: $selectBgColor;
+	border: 1px solid $selectBorderColor;
+	border-radius: $borderRadius;
+}
+
+.select-group:hover {
+	background-color: $selectBgColorHover;
+}
+
+.select-group:focus {
+	background-color: $selectBgColorFocus;
+}
+
+.select-group.valid {
+	background-color: $selectBgColorValid;
+	border: 1px solid $selectBorderColorValid;
+}
+
+.select-group.invalid {
+	background-color: $selectBgColorInvalid;
+	border: 1px solid $selectBorderColorInvalid;
+}
+
+.select-group::before {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+
+	display: block;
+	content: "";
+
+	width: 0;
+	height: 0;
+
+	border-style: solid;
+	border-width: 10px 7px 0 7px;
+
+	border-color: #dbdbdb transparent transparent transparent;
+
+	transform: translateY(-50%);
+
+	pointer-events: none;
+
+	transition: all ease 0.3s;
+}
+
+.select-field {
+	padding: 10px 45px 10px 15px;
+
+	width: 100%;
+
+	font-size: 14px;
+	line-height: 19px;
+
+	background-color: transparent;
+
+	outline: transparent;
+
+	appearance: none;
+
+	cursor: pointer;
+
+	transition: all ease 0.3s;
+}
+
+.select-field::-ms-expand {
+	display: none;
+}
+
+.select-field:focus {
+	background-color: $selectBgColorFocus;
+}
+
+.form-application-buttons {
+	text-align: center;
+}
+
+.form-button-send,
+.form-button-reset {
+	padding: 12px 17px;
+}
+
+.form-button-send {
+	margin-right: 15px;
+}

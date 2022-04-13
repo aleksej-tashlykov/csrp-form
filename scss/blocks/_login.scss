@@ -1,0 +1,35 @@
+.login-header {
+	margin-bottom: 100px;
+}
+
+.login-content {
+	flex: 1 1 auto;
+
+	margin-bottom: 150px;
+}
+
+.login-form {
+	margin-bottom: 25px;
+}
+
+.login-form .input-group {
+	margin-bottom: 25px;
+}
+
+.login-form .input-title {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.form-login-button {
+	text-align: center;
+}
+
+.form-button-login {
+	padding: 11px 35px;
+}
+
+input[type="password"] {
+	font-family: "Verdana";
+	letter-spacing: 0.125em;
+}

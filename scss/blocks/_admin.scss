@@ -1,0 +1,135 @@
+@import "./modal";
+@import "./popup";
+
+.admin-header {
+	margin-bottom: 100px;
+}
+
+.logout {
+	cursor: pointer;
+}
+
+.admin-content {
+	margin-bottom: 150px;
+	flex: 1 1 auto;
+}
+
+.admin-title {
+	margin-bottom: 60px;
+
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.user-table {
+	width: 100%;
+
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+.table-header {
+	margin-bottom: 5px;
+
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+
+	background-color: $tableHeaderBgColor;
+}
+
+.header-table-cell {
+	padding: 10px 8px 10px 7px;
+}
+
+.sequence-number {
+	width: 51px;
+}
+
+.full-name {
+	width: 170px;
+}
+
+.dob {
+	width: 114px;
+}
+
+.area {
+	width: 186px;
+}
+
+.locality {
+	width: 185px;
+}
+
+.school {
+	width: 199px;
+}
+
+.school-class {
+	width: 54px;
+}
+
+.status {
+	width: 328px;
+}
+
+.petition {
+	width: 170px;
+}
+
+.person {
+	width: 150px;
+}
+
+.tel {
+	width: 115px;
+}
+
+.action {
+	width: 85px;
+}
+
+.body-table-row {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 17px;
+
+	vertical-align: top;
+}
+
+.body-table-row .text-center {
+	text-align: center;
+}
+
+.body-table-row:nth-of-type(odd) {
+	background-color: $tableRowOddColor;
+}
+
+.body-table-row:nth-of-type(even) {
+	background-color: $tableRowEvenColor;
+}
+
+.body-table-cell {
+	padding: 5px 10px;
+}
+
+.icon-table-update,
+.icon-table-delete {
+	width: 20px;
+	height: 20px;
+}
+
+.icon-table-update {
+	margin-right: 10px;
+
+	background-image: url("../image/pencile_icon.svg");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.icon-table-delete {
+	background-image: url("../image/trash_bin_icon.svg");
+	background-repeat: no-repeat;
+	background-position: center center;
+}

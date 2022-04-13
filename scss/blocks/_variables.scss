@@ -1,0 +1,92 @@
+//Акцентные цвета
+$pageBgColor: #f3f3f3;
+$blocksBgColor: #3e90b2;
+$mainTextColor: #333333;
+$requiredFieldTextColor: #b35060;
+
+//Цвета поля ввода
+$inputBgColor: #ffffff;
+$inputBgColorHover: #f5f5f5;
+$inputBgColorFocus: #ffffe6;
+$inputBgColorInvalid: #ffffe6;
+$inputBgColorValid: #ffffe6;
+
+//Цвет текста подсказки поля ввода
+$placeholderTextColor: #b5b5b5;
+
+//Цвет границы поля ввода
+$inputBorderColor: #dbdbdb;
+$inputBorderColorInvalid: #b35060;
+$inputBorderColorValid: #3e90b2;
+
+//Цвет выпадающего списка
+$selectBgColor: #ffffff;
+$selectBgColorHover: #f5f5f5;
+$selectBgColorFocus: #ffffe6;
+$selectBgColorInvalid: #ffffe6;
+$selectBgColorValid: #ffffe6;
+
+//Цвет границы выпадающего списка
+$selectBorderColor: #dbdbdb;
+$selectBorderColorInvalid: #b35060;
+$selectBorderColorValid: #3e90b2;
+
+//Скругление элементов
+$borderRadius: 3px;
+
+//Цвет текста ошибки
+$inputError: #b35060;
+
+//Цвета кнопок
+$buttonBlueBgColor: #3e90b2;
+$buttonBlueBgColorHover: #285c73;
+$buttonBlueBgColorActive: #439abf;
+$buttonYellowBgColor: #ffffe6;
+$buttonYellowBgColorHover: #dce8c5;
+$buttonYellowBgColorActive: #e4ffd9;
+
+//Цвет текста кнопок
+$buttonBlueTextColor: #f3f3f3;
+$buttonYellowTextColor: #3e90b2;
+
+//Цвет границы кнопок
+$buttonBorderColor: #3e90b2;
+$buttonBlueBorderColor: #3e90b2;
+$buttonBlueBorderColorHover: #285c73;
+$buttonBlueBorderColorActive: #439abf;
+$buttonYellowBorderColor: #3e90b2;
+$buttonYellowBorderColorHover: #3e90b2;
+$buttonYellowBorderColorActive: #3e90b2;
+
+//Цвет загаловка таблицы
+$tableHeaderBgColor: #ffffe6;
+
+//Цвет строк таблицы
+$tableRowOddColor: #ffffff;
+$tableRowEvenColor: #e6e6e6;
+
+//Цвет сообщения о результатах действий
+$messageBgColor: rgba(255, 255, 230, 0.4);
+
+//Цвет границы сообщения о результатах действий
+$messageBorderColorValid: #3e90b2;
+$messageBorderColorInvalid: #b35060;
+
+//Цвет фона модального окна
+$modalBgColor: rgba(243, 243, 243, 0.4);
+
+//Цвет фона контента
+$modalBgColorContent: #ffffff;
+
+//Цвет границы модального окна
+$modalBorderColorContent: #dbdbdb;
+
+//Цвет фона вслывающего сообщения
+$popupBgColor: rgba(243, 243, 243, 0.75);
+
+//Цвет фона сообщения в всплывающем сообщении
+$popupMessageBgColor: #ffffe6;
+
+//Цвет границ сообщения в всплывающем сообщении
+$popupMessageInvalid: #3e90b2;
+$popupMessageValid: #b35060;

@@ -4,4 +4,5 @@
 <h2 align="center">Демонстрация работы формы</h2>
 <img src="/form-gif.gif" width="1012" alt="demo">
 
-<h3></h3>
+
+<button align="center">Подать заявку</button>

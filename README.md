@@ -5,4 +5,4 @@
 <img src="/form-gif.gif" width="1012" alt="demo">
 
 
-<h3 align="center"><a href="http://p92420u3.beget.tech/">Подать заявку</a></h3>
+<h4 align="center"><a href="http://p92420u3.beget.tech/">ПОДАТЬ ЗАЯВКУ</a></h4>

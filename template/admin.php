@@ -1,7 +1,7 @@
 <?php
 
-require_once "./core/function.php";
-require_once "./core/data.php";
+require_once "core/function.php";
+require_once "core/data.php";
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 

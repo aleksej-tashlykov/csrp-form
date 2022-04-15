@@ -20,8 +20,17 @@ switch ($route) {
 	case ($route[0] == "login"):
 		require_once "template/login.php";
 		break;
+	case ($route[0] == "admin" and $route[1] === "update" and isset($route[2])):
+		if (!isset($_COOKIE["user"]) or $_COOKIE["user"] == "") {
+			require_once "template/login.php";
+			exit;
+		} else {
+			$query = selectDataBase("SELECT * FROM application WHERE id=" . $route[2]);
+			require_once "template/update.php";
+		}
+		break;
 	case ($route[0] == "admin"):
-		if(!isset($_COOKIE["user"]) or $_COOKIE["user"] == "") {
+		if (!isset($_COOKIE["user"]) or $_COOKIE["user"] == "") {
 			require_once "template/login.php";
 			exit;
 		} else {
@@ -30,18 +39,7 @@ switch ($route) {
 			exit;
 		}
 		break;
-	case ($route[0] == "update"):
-		if(!isset($_COOKIE["user"]) or $_COOKIE["user"] == "") {
-			require_once "template/login.php";
-			exit;
-		} elseif (isset($route[1]) and trim($route[1]) !== "") {
-			$id = $route[1];
-			$query = selectDataBase("SELECT * FROM application WHERE id='" . $id . "'");
-			require_once "template/update.php";
-			exit;
-		}
-		break;
 	default:
-	require_once "template/error.php";
+		require_once "template/error.php";
 		break;
 }

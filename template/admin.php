@@ -30,7 +30,7 @@ foreach ($query as $key => $value) {
 	$tableBody .= "<td class='body-table-cell text-center'>{$value["tel"]}</td>";
 	$tableBody .= "<td class='body-table-cell text-center'>";
 	$tableBody .= "<p class='body-table-icon icon-table'>";
-	$tableBody .= "<a class='icon-table-update' href='/update/{$value["id"]}' title='Редактировать'></a>";
+	$tableBody .= "<a class='icon-table-update' href='/admin/update/{$value["id"]}' title='Редактировать'></a>";
 	$tableBody .= "<button class='button icon-table-delete' type='submit' name='button-delete' data-id='{$value["id"]}' title='Удалить'></button>";
 	$tableBody .= "</p>";
 	$tableBody .= "</td>";
